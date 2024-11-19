@@ -1,0 +1,28 @@
+@baseURL = http://localhost:3333
+
+# @name register_restaurant
+POST {{ baseURL }}/restaurants
+Content-Type: application/json
+
+{
+  "restaurantName": "Rocket Pizza",
+  "name": "Eduardo Rodrigues",
+  "email": "edurodriguesdev1@gmail.com",
+  "phone": "34998249953"
+}
+
+###
+
+# @name authenticate
+POST {{ baseURL }}/authenticate
+Content-Type: application/json
+
+{
+  "email": "edurodriguesdev1@gmail.com"
+}
+
+###
+
+# @name authenticate_from_link
+GET {{ baseURL }}/authenticate?code=y0fr7ecdcmbe82juahu7l0wx&
+Content-Type: application/json

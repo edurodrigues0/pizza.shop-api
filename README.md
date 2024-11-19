@@ -28,7 +28,7 @@ Antes de começar, verifique se você possui as seguintes ferramentas instaladas
 Comece clonando este repositório para sua máquina local. Abra o terminal e execute o seguinte comando:
 
 ```bash
-  git clone https://github.com/{user}/{repo}.git
+  git clone https://github.com/edurodrigues0/pizza.shop-api.git
 ```
 Isso crirá uma cópia local do repositório em seu ambiente.
 
